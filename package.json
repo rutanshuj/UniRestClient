@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "deathbycaptcha": "0.0.3",
+    "http": "0.0.0",
     "unirest": "^0.5.1"
   }
 }
