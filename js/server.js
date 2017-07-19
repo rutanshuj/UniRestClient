@@ -9,7 +9,7 @@ http.get("https://vtop.vit.ac.in/student/captcha.asp", function (res) {
         body+=data;
     });  // After the response is completed, parse it and log it to the console
     res.on('end', function () {
-        var parsed = JOSN.parse(body);
+        var parsed = JSON.parse(body);
         console.log(parsed);
     })
 });

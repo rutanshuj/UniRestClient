@@ -5,8 +5,6 @@ $(document).ready(function (response) {
         console.log(a);
         alert("Something happened");
     }
-
-    Death
     //var b = a.src;
 
 });
