@@ -1,3 +1,4 @@
+<script data-main="js/server.js" src="js/require.js"></script>
 <?php
 include_once('simple_html_dom.php');
 
@@ -13,4 +14,3 @@ if(!empty($html_base)) {
 }
     ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
-<script type="text/javascript" src="./js/server.js"></script>
