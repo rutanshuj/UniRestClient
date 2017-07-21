@@ -1,4 +1,7 @@
 var http = require('http'); //Imports the http module
+require([http], function (httpModule) {
+    
+});
 
 http.get("https://vtop.vit.ac.in/student/captcha.asp", function (res) {
     var body = ''; // Will contain the final response

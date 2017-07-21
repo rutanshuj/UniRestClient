@@ -12,9 +12,13 @@
   "author": "rutanshu <rjhaveri41@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "deathbycaptcha": "0.0.3",
     "express": "^4.15.3",
+    "handlebars": "^4.0.10",
     "http": "0.0.0",
+    "path": "^0.12.7",
+    "request": "^2.81.0",
     "unirest": "^0.5.1"
   }
 }
