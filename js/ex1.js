@@ -21,7 +21,7 @@ request(url, function (err,resp, body) {
     var summary = $('.summary');
     var summaryText = summary.text();
 
-    var job{
+    var job={
     companyName: companyNameText,
     jobTitle: jobtTilteText,
     location: locationText,
